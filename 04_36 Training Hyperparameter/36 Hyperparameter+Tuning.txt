@@ -1,3 +1,7 @@
+# add the below three blocks into above 31_sagemake notebook for evaluation
+# ////////////////////////////////////
+
+
 import sagemaker
 import boto3
 from sagemaker import image_uris
@@ -74,7 +78,7 @@ tuner.fit({
 
 
 
-////////////////////////////////////
+# ////////////////////////////////////
 
 
 
@@ -86,7 +90,7 @@ import boto3
 client = boto3.client('sagemaker')
 
 # Describe the tuning job
-tuning_job_name = 'your-tuning-job-name'
+tuning_job_name = 'xgb-tuning-job'
 response = client.describe_hyper_parameter_tuning_job(HyperParameterTuningJobName=tuning_job_name)
 
 # Get the best training job
@@ -110,7 +114,7 @@ for metric in metrics:
 
 
 
-##########################################################
+# ////////////////////////////////////
 
 
 
