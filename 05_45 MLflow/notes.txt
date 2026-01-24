@@ -1,0 +1,9 @@
+MLFlow did not work well... 
+
+
+https://app-6ldgp2zd4gis.mlflow.sagemaker.us-east-1.app.aws/
+
+https://app-6ldgp2zd4gis.mlflow.sagemaker.execute-api.us-east-1.amazonaws.com/prod
+arn:aws:sagemaker:us-east-1:085391664415:mlflow-app/app-6LDGP2ZD4GIS
+arn:aws:sagemaker:us-east-1:085391664415:mlflow-app/app-R3337CSB4JL6
+https://app-6ldgp2zd4gis.mlflow.sagemaker.us-east-1.app.aws/#/experiments
